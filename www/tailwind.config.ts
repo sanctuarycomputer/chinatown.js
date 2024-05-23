@@ -7,9 +7,6 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    fontFamily: {
-      'sans': ['Arial Narrow', 'Arial', 'sans-serif'],
-    },
     extend: {
       colors: {
         "ctjs-yellow": '#FFE500',
