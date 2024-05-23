@@ -27,9 +27,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={arialNarrow.className}>
-      <head>
-        <link rel="shortcut icon" href="/favicon.png" />
-      </head>
       <body>{children}</body>
     </html>
   );
