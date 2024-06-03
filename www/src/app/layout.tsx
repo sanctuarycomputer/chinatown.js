@@ -18,6 +18,9 @@ export const metadata: Metadata = {
   openGraph: {
     images: 'https://www.chinatownjs.nyc/share.jpg',
   },
+  icons: {
+    icon: '/favicon.ico',
+  },
 };
 
 export default function RootLayout({

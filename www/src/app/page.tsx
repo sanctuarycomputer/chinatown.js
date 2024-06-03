@@ -9,7 +9,7 @@ export default function Home() {
     <main className="w-full pt-24">
       <div className="fixed top-0 flex flex-row w-full z-50">
         <Marquee className="marquee bg-ctjs-yellow border-ctjs-red border-solid border-4 flex-grow m-8">
-          <p className="text-ctjs-red text-4xl md:text-6xl">Next event: June 4 7–9:30 PM 120 Walker 3rd Floor☞☞☞</p>
+          <p className="text-ctjs-red text-4xl md:text-6xl">Next event: July 9 7–9:00 PM 120 Walker 3rd Floor☞☞☞</p>
         </Marquee>
         <a className="text-4xl md:text-6xl bg-white hover:bg-ctjs-red border-ctjs-red border-solid border-4 mr-8 my-8 flex flex-col justify-center px-4 text-ctjs-red hover:text-white" href="https://lu.ma/5e3vxyi8" target="_blank">
           Tickets
