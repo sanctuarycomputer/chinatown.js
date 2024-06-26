@@ -39,25 +39,25 @@ export default function Home() {
       <section className="bg-white md:flex md:flow-row px-8 pt-8 pb-24 relative">
         <div className="w-full sm:w-1/2 md:w-1/3 aspect-square relative p-8">
           <div className="bg-ctjs-green w-full h-full absolute top-0 bottom-0 left-0 right-0"></div>
-            <p className="text-white text-5xl md:text-6xl leading-tight tracking-tight text-center absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2">
-              <a href="https://github.com/sanctuarycomputer/chinatown.js" target="_blank" className="underline decoration-wavy underline-offset-4 decoration-1 hover:text-ctjs-red" rel="noopener noreferrer">
-                Be our first speaker!
+            <p className="text-white text-5xl md:text-5xl leading-tight tracking-tight text-center absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2">
+              <a href="https://github.com/sanctuarycomputer/chinatown.js/issues/8" target="_blank" className="underline decoration-wavy underline-offset-4 decoration-1 hover:text-ctjs-red" rel="noopener noreferrer">
+                Josh McClain — Parsing & Unparsing JS
               </a>
             </p>
         </div>
         <div className="w-full sm:w-1/2 md:w-1/3 aspect-square relative p-8 mx-auto">
           <div className="polygon bg-ctjs-pink w-full h-full absolute top-0 bottom-0 left-0 right-0"></div>
-          <p className="text-black text-5xl md:text-6xl leading-tight tracking-tight text-center absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2">
-            <a href="https://github.com/sanctuarycomputer/chinatown.js" target="_blank" className="underline decoration-wavy underline-offset-4 decoration-1 hover:text-ctjs-red" rel="noopener noreferrer">
-              Be our second speaker!
+          <p className="text-black text-5xl md:text-5xl leading-tight tracking-tight text-center absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2">
+            <a href="https://github.com/sanctuarycomputer/chinatown.js/issues/5" target="_blank" className="underline decoration-wavy underline-offset-4 decoration-1 hover:text-ctjs-red" rel="noopener noreferrer">
+              Henry Zhu — A Protocol for Serendipity
             </a>
           </p>
         </div>
         <div className="w-full sm:w-1/2 md:w-1/3 aspect-square relative p-8 ml-auto">
           <div className="bg-ctjs-blue  w-full h-full absolute top-0 bottom-0 left-0 right-0 rounded-full"></div>
-          <p className=" text-ctjs-red text-5xl md:text-6xl leading-tight tracking-tight text-center absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2">
-            <a href="https://github.com/sanctuarycomputer/chinatown.js" target="_blank" className="underline decoration-wavy underline-offset-4 decoration-1 hover:text-ctjs-red" rel="noopener noreferrer">
-              Be our third speaker!
+          <p className=" text-ctjs-red text-5xl md:text-5xl leading-tight tracking-tight text-center absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2">
+            <a href="https://github.com/sanctuarycomputer/chinatown.js/issues/1" target="_blank" className="underline decoration-wavy underline-offset-4 decoration-1 hover:text-ctjs-red" rel="noopener noreferrer">
+              Shristi Singh — Type Something
             </a>
           </p>
         </div>
