@@ -9,14 +9,14 @@ export default function Home() {
     <main className="w-full pt-24">
       <div className="fixed top-0 flex flex-row w-full z-50">
         <Marquee className="marquee bg-ctjs-yellow border-ctjs-red border-solid border-4 flex-grow m-8">
-          <p className="text-ctjs-red text-4xl md:text-6xl">Next event: tbd!☞☞☞</p>
+          <p className="text-ctjs-red text-4xl md:text-6xl">Next event: September 24 7–9:00 PM 120 Walker 3rd Floor ☞☞☞</p>
         </Marquee>
-        <a className="text-4xl md:text-6xl bg-white border-ctjs-red border-solid border-4 mr-8 my-8 flex flex-col justify-center px-4 text-ctjs-red" href="#">
+        <a className="text-4xl md:text-6xl bg-white hover:bg-ctjs-red border-ctjs-red border-solid border-4 mr-8 my-8 flex flex-col justify-center px-4 text-ctjs-red hover:text-white" href="https://lu.ma/v1umjzcq" target="_blank">
           Tickets
         </a>
       </div>
 
-      <section className="bg-white md:flex md:flex-row px-8 pt-8 pb-24 relative">
+      <section className="bg-white md:flex md:flex-row px-8 pt-8 pb-24 relative md:mb-4">
         <div className="md:w-1/2 md:pr-2">
           <h2 className="text-4xl md:text-6xl leading-tight tracking-tight pb-8">Program</h2>
           <p className="text-3xl md:text-4xl leading-tight tracking-tight pb-8">
@@ -36,34 +36,45 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-white md:flex md:flow-row px-8 pt-8 pb-24 relative">
+      <section className="bg-white md:flex md:flow-row px-8 pt-8 pb-24 relative md:mb-4">
         <div className="w-full sm:w-1/2 md:w-1/3 aspect-square relative p-8">
           <div className="bg-ctjs-green w-full h-full absolute top-0 bottom-0 left-0 right-0"></div>
             <p className="text-white text-5xl md:text-6xl leading-tight tracking-tight text-center absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2">
-              <a href="https://github.com/sanctuarycomputer/chinatown.js" target="_blank" className="underline decoration-wavy underline-offset-4 decoration-1 hover:text-ctjs-red" rel="noopener noreferrer">
-                Be our first speaker!
+              <a href="https://github.com/sanctuarycomputer/chinatown.js/issues/12" target="_blank" className="underline decoration-wavy underline-offset-4 decoration-1 hover:text-ctjs-red" rel="noopener noreferrer">
+                Pei Barth Zhu — The Limit Does Not Exist
               </a>
             </p>
         </div>
         <div className="w-full sm:w-1/2 md:w-1/3 aspect-square relative p-8 mx-auto">
           <div className="polygon bg-ctjs-pink w-full h-full absolute top-0 bottom-0 left-0 right-0"></div>
           <p className="text-black text-5xl md:text-6xl leading-tight tracking-tight text-center absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2">
-            <a href="https://github.com/sanctuarycomputer/chinatown.js" target="_blank" className="underline decoration-wavy underline-offset-4 decoration-1 hover:text-ctjs-red" rel="noopener noreferrer">
-              Be our second speaker!
+            <a href="https://github.com/sanctuarycomputer/chinatown.js/issues/3" target="_blank" className="underline decoration-wavy underline-offset-4 decoration-1 hover:text-ctjs-red" rel="noopener noreferrer">
+              Cory Etzkorn — Tools You Know
             </a>
           </p>
         </div>
         <div className="w-full sm:w-1/2 md:w-1/3 aspect-square relative p-8 ml-auto">
           <div className="bg-ctjs-blue  w-full h-full absolute top-0 bottom-0 left-0 right-0 rounded-full"></div>
           <p className=" text-ctjs-red text-5xl md:text-6xl leading-tight tracking-tight text-center absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2">
-            <a href="https://github.com/sanctuarycomputer/chinatown.js" target="_blank" className="underline decoration-wavy underline-offset-4 decoration-1 hover:text-ctjs-red" rel="noopener noreferrer">
-              Be our third speaker!
+            <a href="https://github.com/sanctuarycomputer/chinatown.js/issues/6" target="_blank" className="underline decoration-wavy underline-offset-4 decoration-1 hover:text-ctjs-red" rel="noopener noreferrer">
+              Nahee Kim — NSFW Introduction to TCP/IP Headers
             </a>
           </p>
         </div>
       </section>
 
-      <section className="bg-ctjs-white md:flex md:flex-row p-8 relative">
+      <section className="grid grid-cols-4 gap-4 md:gap-8 px-8 w-100 place-items-center">
+        <img src="/_next/image?url=/images/photo-1.jpeg&w=1200&q=80" />
+        <div className="col-span-2 w-full h-full bg-no-repeat bg-cover" style={{backgroundImage: "url(/_next/image?url=/images/photo-2.jpeg&w=1200&q=80)"}}>
+        </div>
+        <img src="/_next/image?url=/images/photo-3.jpeg&w=1200&q=80" />
+        <div className="col-span-2 w-full h-full bg-no-repeat bg-cover" style={{backgroundImage: "url(/_next/image?url=/images/photo-4.jpeg&w=1200&q=80)"}}>
+        </div>
+        <img src="/_next/image?url=/images/photo-5.jpeg&w=1200&q=80" />
+        <img src="/_next/image?url=/images/photo-6.jpeg&w=1200&q=80" />
+      </section>
+
+      <section className="bg-ctjs-white md:flex md:flex-row p-8 relative md:mt-8">
         <div className="md:w-1/2 md:pr-2">
           <WelcomeAll />
           <p className="text-3xl md:text-4xl leading-tight tracking-tight pt-4">
@@ -74,7 +85,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-ctjs-white md:flex md:flex-row p-8 relative">
+      <section className="bg-ctjs-white md:flex md:flex-row p-8 relative md:mb-4">
         <div className="md:w-1/2 md:pr-2">
         </div>
         <div className="md:w-1/2 md:pl-2">
@@ -84,7 +95,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-ctjs-yellow md:flex md:flex-row p-8 relative">
+      <section className="bg-ctjs-yellow md:flex md:flex-row p-8 relative md:pt-12">
         <div className="md:w-1/2 md:pr-2">
           <h2 className="text-4xl md:text-6xl leading-tight tracking-tight pb-8">Submit a Talk</h2>
           <p className="text-3xl md:text-4xl leading-tight tracking-tight pb-8">
@@ -108,7 +119,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-ctjs-yellow md:flex md:flex-row p-8 relative">
+      <section className="bg-ctjs-yellow md:flex md:flex-row p-8 relative md:pb-12">
         <div className="md:w-1/2 md:pr-2">
           <h2 className="text-4xl md:text-6xl leading-tight tracking-tight pb-8">Attending ChinatownJS</h2>
         </div>
@@ -143,7 +154,7 @@ export default function Home() {
         </div>
       </section>
 
-      <footer className="bg-ctjs-blue md:flex md:flex-row p-8 relative">
+      <footer className="bg-ctjs-blue md:flex md:flex-row p-8 relative md:pt-12">
         <div className="md:w-1/2 md:pr-2">
           <h2 className="text-3xl md:text-4xl leading-tight tracking-tight pb-8 md:pb-16">
           <a href="https://www.sanctuary.computer/" target="_blank" className="underline decoration-wavy underline-offset-4 decoration-1 hover:text-ctjs-red" rel="noopener noreferrer">Sanctuary Computer</a> is a software & technology development studio based in Chinatown NYC.
