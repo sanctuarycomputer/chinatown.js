@@ -9,9 +9,9 @@ export default function Home() {
     <main className="w-full pt-24">
       <div className="fixed top-0 flex flex-row w-full z-50">
         <Marquee className="marquee bg-ctjs-yellow border-ctjs-red border-solid border-4 flex-grow m-8">
-          <p className="text-ctjs-red text-4xl md:text-6xl">Next event: September 24 7–9:00 PM 120 Walker 3rd Floor ☞☞☞</p>
+          <p className="text-ctjs-red text-4xl md:text-6xl">Next event: November 12th 7–9:00 PM 120 Walker 3rd Floor ☞☞☞</p>
         </Marquee>
-        <a className="text-4xl md:text-6xl bg-white hover:bg-ctjs-red border-ctjs-red border-solid border-4 mr-8 my-8 flex flex-col justify-center px-4 text-ctjs-red hover:text-white" href="https://lu.ma/v1umjzcq" target="_blank">
+        <a className="text-4xl md:text-6xl bg-white hover:bg-ctjs-red border-ctjs-red border-solid border-4 mr-8 my-8 flex flex-col justify-center px-4 text-ctjs-red hover:text-white" href="https://lu.ma/fv7iqo1w" target="_blank">
           Tickets
         </a>
       </div>
@@ -40,24 +40,24 @@ export default function Home() {
         <div className="w-full sm:w-1/2 md:w-1/3 aspect-square relative p-8">
           <div className="bg-ctjs-green w-full h-full absolute top-0 bottom-0 left-0 right-0"></div>
             <p className="text-white text-5xl md:text-6xl leading-tight tracking-tight text-center absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2">
-              <a href="https://github.com/sanctuarycomputer/chinatown.js/issues/12" target="_blank" className="underline decoration-wavy underline-offset-4 decoration-1 hover:text-ctjs-red" rel="noopener noreferrer">
-                Pei Barth Zhu — The Limit Does Not Exist
+              <a href="https://github.com/sanctuarycomputer/chinatown.js/issues" target="_blank" className="underline decoration-wavy underline-offset-4 decoration-1 hover:text-ctjs-red" rel="noopener noreferrer">
+              Be our first speaker!
               </a>
             </p>
         </div>
         <div className="w-full sm:w-1/2 md:w-1/3 aspect-square relative p-8 mx-auto">
           <div className="polygon bg-ctjs-pink w-full h-full absolute top-0 bottom-0 left-0 right-0"></div>
           <p className="text-black text-5xl md:text-6xl leading-tight tracking-tight text-center absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2">
-            <a href="https://github.com/sanctuarycomputer/chinatown.js/issues/3" target="_blank" className="underline decoration-wavy underline-offset-4 decoration-1 hover:text-ctjs-red" rel="noopener noreferrer">
-              Cory Etzkorn — Tools You Know
+            <a href="https://github.com/sanctuarycomputer/chinatown.js/issues" target="_blank" className="underline decoration-wavy underline-offset-4 decoration-1 hover:text-ctjs-red" rel="noopener noreferrer">
+            Be our second speaker!
             </a>
           </p>
         </div>
         <div className="w-full sm:w-1/2 md:w-1/3 aspect-square relative p-8 ml-auto">
           <div className="bg-ctjs-blue  w-full h-full absolute top-0 bottom-0 left-0 right-0 rounded-full"></div>
           <p className=" text-ctjs-red text-5xl md:text-6xl leading-tight tracking-tight text-center absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2">
-            <a href="https://github.com/sanctuarycomputer/chinatown.js/issues/6" target="_blank" className="underline decoration-wavy underline-offset-4 decoration-1 hover:text-ctjs-red" rel="noopener noreferrer">
-              Nahee Kim — NSFW Introduction to TCP/IP Headers
+            <a href="https://github.com/sanctuarycomputer/chinatown.js/issues" target="_blank" className="underline decoration-wavy underline-offset-4 decoration-1 hover:text-ctjs-red" rel="noopener noreferrer">
+            Be our third speaker!
             </a>
           </p>
         </div>
