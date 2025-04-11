@@ -5,6 +5,8 @@ import WelcomeAll from "@/app/components/WelcomeAll";
 import { SubmittingATalk, SpeakingAtChinatownJS } from "@/app/components/Accordion";
 
 const SHOW_SPEAKERS = false;
+const TICKET_LINK = "https://lu.ma/be2931t8";
+const NEXT_EVENT_DATE = "May 6th 7–9:00 PM 120 Walker 3rd Floor";
 
 type Speaker = {
   title: string;
@@ -27,9 +29,9 @@ export default function Home() {
     <main className="w-full pt-24">
       <div className="fixed top-0 flex flex-row w-full z-50">
         <Marquee className="marquee bg-ctjs-yellow border-ctjs-red border-solid border-4 flex-grow m-8">
-          <p className="text-ctjs-red text-4xl md:text-6xl">Next event: May 6th 7–9:00 PM 120 Walker 3rd Floor ☞☞☞</p>
+          <p className="text-ctjs-red text-4xl md:text-6xl">Next event: {NEXT_EVENT_DATE} ☞☞☞</p>
         </Marquee>
-        <a className="text-4xl md:text-6xl bg-white hover:bg-ctjs-red border-ctjs-red border-solid border-4 mr-8 my-8 flex flex-col justify-center px-4 text-ctjs-red hover:text-white" href="https://lu.ma/be2931t8" target="_blank">
+        <a className="text-4xl md:text-6xl bg-white hover:bg-ctjs-red border-ctjs-red border-solid border-4 mr-8 my-8 flex flex-col justify-center px-4 text-ctjs-red hover:text-white" href={TICKET_LINK} target="_blank">
           Tickets
         </a>
       </div>
