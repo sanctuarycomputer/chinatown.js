@@ -4,14 +4,32 @@ import WelcomeAll from "@/app/components/WelcomeAll";
 
 import { SubmittingATalk, SpeakingAtChinatownJS } from "@/app/components/Accordion";
 
+const SHOW_SPEAKERS = false;
+
+type Speaker = {
+  title: string;
+  link: string;
+}
+
+const SPEAKER: Speaker[] = [{
+  title: "Johan Michalove — FireAid: Mapping Mutual Aid in LA",
+  link: "https://github.com/sanctuarycomputer/chinatown.js/issues/27"
+}, {
+  title: "Hyning Gan — Augmenting Tradition: Bilingual Typography in the Digital Age",
+  link: "https://github.com/sanctuarycomputer/chinatown.js/issues/21"
+}, {
+  title: "Elijah Kennedy — Welcome to the Socketverse",
+  link: "https://github.com/sanctuarycomputer/chinatown.js/issues/10"
+}];
+
 export default function Home() {
   return (
     <main className="w-full pt-24">
       <div className="fixed top-0 flex flex-row w-full z-50">
         <Marquee className="marquee bg-ctjs-yellow border-ctjs-red border-solid border-4 flex-grow m-8">
-          <p className="text-ctjs-red text-4xl md:text-6xl">Next event: February 18th 7–9:00 PM 120 Walker 3rd Floor ☞☞☞</p>
+          <p className="text-ctjs-red text-4xl md:text-6xl">Next event: May 6th 7–9:00 PM 120 Walker 3rd Floor ☞☞☞</p>
         </Marquee>
-        <a className="text-4xl md:text-6xl bg-white hover:bg-ctjs-red border-ctjs-red border-solid border-4 mr-8 my-8 flex flex-col justify-center px-4 text-ctjs-red hover:text-white" href="https://lu.ma/4m4s4o2w" target="_blank">
+        <a className="text-4xl md:text-6xl bg-white hover:bg-ctjs-red border-ctjs-red border-solid border-4 mr-8 my-8 flex flex-col justify-center px-4 text-ctjs-red hover:text-white" href="https://lu.ma/be2931t8" target="_blank">
           Tickets
         </a>
       </div>
@@ -40,24 +58,24 @@ export default function Home() {
         <div className="w-full sm:w-1/2 md:w-1/3 aspect-square relative p-8">
           <div className="bg-ctjs-green w-full h-full absolute top-0 bottom-0 left-0 right-0"></div>
             <p className="text-white text-4xl md:text-5xl leading-tight tracking-tight text-center absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2">
-              <a href="https://github.com/sanctuarycomputer/chinatown.js/issues/27" target="_blank" className="underline decoration-wavy underline-offset-4 decoration-1 hover:text-ctjs-red" rel="noopener noreferrer">
-                Johan Michalove — FireAid: Mapping Mutual Aid in LA
+              <a href={SHOW_SPEAKERS ? SPEAKER[0].link : "https://github.com/sanctuarycomputer/chinatown.js"} target="_blank" className="underline decoration-wavy underline-offset-4 decoration-1 hover:text-ctjs-red" rel="noopener noreferrer">
+                {SHOW_SPEAKERS ? SPEAKER[0].title : "Be our first speaker!"}
               </a>
             </p>
         </div>
         <div className="w-full sm:w-1/2 md:w-1/3 aspect-square relative p-8 mx-auto">
           <div className="polygon bg-ctjs-pink w-full h-full absolute top-0 bottom-0 left-0 right-0"></div>
           <p className="text-black text-4xl md:text-5xl leading-tight tracking-tight text-center absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2">
-            <a href="https://github.com/sanctuarycomputer/chinatown.js/issues/21" target="_blank" className="underline decoration-wavy underline-offset-4 decoration-1 hover:text-ctjs-red" rel="noopener noreferrer">
-              Hyning Gan — Augmenting Tradition: Bilingual Typography in the Digital Age
+            <a href={SHOW_SPEAKERS ? SPEAKER[1].link : "https://github.com/sanctuarycomputer/chinatown.js"} target="_blank" className="underline decoration-wavy underline-offset-4 decoration-1 hover:text-ctjs-red" rel="noopener noreferrer">
+              {SHOW_SPEAKERS ? SPEAKER[1].title : "Be our second speaker!"}
             </a>
           </p>
         </div>
         <div className="w-full sm:w-1/2 md:w-1/3 aspect-square relative p-8 ml-auto">
           <div className="bg-ctjs-blue  w-full h-full absolute top-0 bottom-0 left-0 right-0 rounded-full"></div>
           <p className=" text-ctjs-red text-4xl md:text-5xl leading-tight tracking-tight text-center absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2">
-            <a href="https://github.com/sanctuarycomputer/chinatown.js/issues/10" target="_blank" className="underline decoration-wavy underline-offset-4 decoration-1 hover:text-ctjs-red" rel="noopener noreferrer">
-              Elijah Kennedy — Welcome to the Socketverse
+            <a href={SHOW_SPEAKERS ? SPEAKER[2].link : "https://github.com/sanctuarycomputer/chinatown.js"} target="_blank" className="underline decoration-wavy underline-offset-4 decoration-1 hover:text-ctjs-red" rel="noopener noreferrer">
+              {SHOW_SPEAKERS ? SPEAKER[2].title : "Be our third speaker!"}
             </a>
           </p>
         </div>
