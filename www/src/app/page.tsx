@@ -4,7 +4,7 @@ import WelcomeAll from "@/app/components/WelcomeAll";
 
 import { SubmittingATalk, SpeakingAtChinatownJS } from "@/app/components/Accordion";
 
-const SHOW_SPEAKERS = false;
+const SHOW_SPEAKERS = true;
 const TICKET_LINK = "https://lu.ma/be2931t8";
 const NEXT_EVENT_DATE = "May 6th 7–9:00 PM 120 Walker 3rd Floor";
 
@@ -14,14 +14,14 @@ type Speaker = {
 }
 
 const SPEAKER: Speaker[] = [{
-  title: "Johan Michalove — FireAid: Mapping Mutual Aid in LA",
-  link: "https://github.com/sanctuarycomputer/chinatown.js/issues/27"
+  title: "Jack Carrick — Delete Spotify, All You Need Is a Browser",
+  link: "https://github.com/sanctuarycomputer/chinatown.js/issues/30"
 }, {
-  title: "Hyning Gan — Augmenting Tradition: Bilingual Typography in the Digital Age",
-  link: "https://github.com/sanctuarycomputer/chinatown.js/issues/21"
+  title: "Gracy Whelihan — 5695152282714844 (A String of Random Numbers)",
+  link: "https://github.com/sanctuarycomputer/chinatown.js/issues/22"
 }, {
-  title: "Elijah Kennedy — Welcome to the Socketverse",
-  link: "https://github.com/sanctuarycomputer/chinatown.js/issues/10"
+  title: "Yufeng Zhao — Indexing All the Text on NYC Street View",
+  link: "https://github.com/sanctuarycomputer/chinatown.js/issues/28"
 }];
 
 export default function Home() {
