@@ -4,9 +4,9 @@ import WelcomeAll from "@/app/components/WelcomeAll";
 
 import { SubmittingATalk, SpeakingAtChinatownJS } from "@/app/components/Accordion";
 
-const SHOW_SPEAKERS = true;
-const TICKET_LINK = "https://lu.ma/be2931t8";
-const NEXT_EVENT_DATE = "May 6th 7–9:00 PM 120 Walker 3rd Floor";
+const SHOW_SPEAKERS = false;
+const TICKET_LINK = "https://lu.ma/rw95o54i";
+const NEXT_EVENT_DATE = "August 26th, 2025 7–9PM 120 Walker 3rd Floor";
 
 type Speaker = {
   title: string;
