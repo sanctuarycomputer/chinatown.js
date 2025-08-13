@@ -4,9 +4,9 @@ import WelcomeAll from "@/app/components/WelcomeAll";
 
 import { SubmittingATalk, SpeakingAtChinatownJS } from "@/app/components/Accordion";
 
-const SHOW_SPEAKERS = false;
+const SHOW_SPEAKERS = true;
 const TICKET_LINK = "https://lu.ma/rw95o54i";
-const NEXT_EVENT_DATE = "August 26th, 2025 7–9PM 120 Walker 3rd Floor";
+const NEXT_EVENT_DATE = "TEMPORAL ENGINES - August 26th, 2025 7–9PM 120 Walker 3rd Floor";
 
 type Speaker = {
   title: string;
@@ -14,14 +14,14 @@ type Speaker = {
 }
 
 const SPEAKER: Speaker[] = [{
-  title: "Jack Carrick — Delete Spotify, All You Need Is a Browser",
-  link: "https://github.com/sanctuarycomputer/chinatown.js/issues/30"
+  title: "​Jamie Brew and Jenn Schiffer — Computational Techniques For Making Karaoke Harder",
+  link: "https://github.com/sanctuarycomputer/chinatown.js/issues/34"
 }, {
-  title: "Gracy Whelihan — 5695152282714844 (A String of Random Numbers)",
-  link: "https://github.com/sanctuarycomputer/chinatown.js/issues/22"
+  title: "​Aparna Krishnan Reshmy — Game Over: Building Games to Transform Fear Talk",
+  link: "https://github.com/sanctuarycomputer/chinatown.js/issues/36"
 }, {
-  title: "Yufeng Zhao — Indexing All the Text on NYC Street View",
-  link: "https://github.com/sanctuarycomputer/chinatown.js/issues/28"
+  title: "​Connie Liu — Creating software with a point of view",
+  link: "https://github.com/sanctuarycomputer/chinatown.js/issues/39"
 }];
 
 export default function Home() {
