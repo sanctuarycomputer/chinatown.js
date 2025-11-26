@@ -4,7 +4,7 @@ import WelcomeAll from "@/app/components/WelcomeAll";
 
 import { SubmittingATalk, SpeakingAtChinatownJS } from "@/app/components/Accordion";
 
-const SHOW_SPEAKERS = false;
+const SHOW_SPEAKERS = true;
 const TICKET_LINK = "https://luma.com/dnl59iqk";
 const NEXT_EVENT_DATE = "December 2nd, 2025 7–9PM 120 Walker 3rd Floor";
 
@@ -14,14 +14,14 @@ type Speaker = {
 }
 
 const SPEAKER: Speaker[] = [{
-  title: "​Jamie Brew and Jenn Schiffer — Computational Techniques For Making Karaoke Harder",
-  link: "https://github.com/sanctuarycomputer/chinatown.js/issues/34"
+  title: "LAV — Kolams, Code and Culture",
+  link: "https://github.com/sanctuarycomputer/chinatown.js/issues/43"
 }, {
-  title: "​Aparna Krishnan Reshmy — Game Over: Building Games to Transform Fear Talk",
-  link: "https://github.com/sanctuarycomputer/chinatown.js/issues/36"
+  title: "Christine Kwon — Fibonacci Garden",
+  link: "https://github.com/sanctuarycomputer/chinatown.js/issues/48"
 }, {
-  title: "​Connie Liu — Creating software with a point of view",
-  link: "https://github.com/sanctuarycomputer/chinatown.js/issues/39"
+  title: "TBA",
+  link: "https://github.com/sanctuarycomputer/chinatown.js/issues"
 }];
 
 export default function Home() {
