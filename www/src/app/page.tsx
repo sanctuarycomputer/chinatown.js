@@ -6,7 +6,7 @@ import { SubmittingATalk, SpeakingAtChinatownJS } from "@/app/components/Accordi
 
 const SHOW_SPEAKERS = true;
 const TICKET_LINK = "https://luma.com/dnl59iqk";
-const NEXT_EVENT_DATE = "December 2nd, 2025 7–9PM 120 Walker 3rd Floor";
+const NEXT_EVENT_DATE = "January 13th, 2026 7–9PM 120 Walker 3rd Floor";
 
 type Speaker = {
   title: string;
